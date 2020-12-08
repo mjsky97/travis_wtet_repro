@@ -1,0 +1,21 @@
+package kr.ac.gnu.wtet.WhatToEatToday;
+
+public class ManageRestaurantsData {
+	
+	private Restaurant[] restaurantlist;
+	
+	public ManageRestaurantsData(Restaurants_testcase rt) {
+		restaurantlist = rt.getRestaurants();
+	}
+
+	public Restaurant[] getRestaurantlist() {
+		return restaurantlist;
+	}
+
+	public void setRestaurantlist(Restaurant[] restauratnlist) {
+		this.restaurantlist = restauratnlist;
+	}
+	
+	
+
+}
